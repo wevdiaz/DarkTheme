@@ -8,6 +8,7 @@ html,body {
     background-color: #efefef;
     height: 100vh;   
     font-family: sans-serif;
+    transition: .3s;
 }
 
 .bi-sun {
@@ -21,7 +22,6 @@ html,body {
 
 header {
     width: 100%;
-    margin: 0 auto;
     padding: 2rem 3rem;
     background-color: #dfdfdf;
 
@@ -56,10 +56,10 @@ input[type="checkbox"] {
 }
 
 .banner .product h1 {
-    font-size: 8rem;
-    font-weight: bold;
+    font-size: 6rem;
+    font-weight: 900;
     text-align: left;
-    padding: 2rem 4rem;
+    padding: 2rem;
 }
 
 .banner .product img {
@@ -69,7 +69,7 @@ input[type="checkbox"] {
     left: -120px;
     top: 190px;
 
-    transform: rotate(-24deg);
+    transform: rotate(-25deg);
 }
 
 .description {
@@ -80,12 +80,13 @@ input[type="checkbox"] {
 }
 
 .description h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .description h3 {
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .description p {
@@ -95,14 +96,13 @@ input[type="checkbox"] {
 }
 
 .description .container-price {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .container-price .price {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
 }
 
