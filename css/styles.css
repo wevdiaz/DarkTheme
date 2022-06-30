@@ -44,7 +44,6 @@ input[type="checkbox"] {
 .banner {
     background-color: azure;
     width: 65%;
-    height: 49%;
     margin: 8rem auto;
 
     display: flex;
@@ -96,7 +95,6 @@ input[type="checkbox"] {
 }
 
 .description .container-price {
-    width: 450px;
 
     display: flex;
     justify-content: space-between;
