@@ -29,7 +29,7 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.2);
 }
 
 header label i {
@@ -42,12 +42,12 @@ input[type="checkbox"] {
 }
 
 .banner {
-    background-color: azure;
+    background-color: lightcyan;
     width: 65%;
-    margin: 8rem auto;
+    margin: 6rem auto;
 
     display: flex;
-    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px -1px rgba(0, 0, 0, 0.1);
 }
 
 .banner .product {
@@ -56,17 +56,17 @@ input[type="checkbox"] {
 }
 
 .banner .product h1 {
-    font-size: 8.5rem;
+    font-size: 8rem;
     font-weight: bold;
     text-align: left;
     padding: 2rem 4rem;
 }
 
 .banner .product img {
-    width: 120%;
+    width: 130%;
 
     position: absolute;
-    left: -130px;
+    left: -120px;
     top: 190px;
 
     transform: rotate(-24deg);
@@ -145,6 +145,11 @@ input[type="checkbox"] {
 
 .dark header h1 {
     color: #fff;
+}
+
+
+.dark .banner {
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .dark .product {
