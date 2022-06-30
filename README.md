@@ -31,7 +31,7 @@
 </p>
 
 ### :speech_balloon: Sobre
-Aplicando o theme dark na página deixando um tema mais escuro ou um o padrão como tema mais claro. 
+Aplicando o theme dark na página deixando um tema mais escuro ou um o padrão como tema mais claro. Você pode conferir [aqui](https://wevdiaz.github.io/DarkTheme/).
  
  ### :hammer_and_wrench: Tecnologias
  
