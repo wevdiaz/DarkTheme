@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #efefef;
+    height: 100vh;   
+    font-family: sans-serif;
+}
+
+.bi-sun {
+    color: orangered;
+}
+
+.bi-moon {
+    color: gold;
+    display: none;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    background-color: #dfdfdf;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.1);
+}
+
+header label i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.banner {
+    background-color: azure;
+    width: 65%;
+    height: 49%;
+    margin: 8rem auto;
+
+    display: flex;
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.banner .product {
+    width: 50%;
+    position: relative;
+}
+
+.banner .product h1 {
+    font-size: 8.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 2rem 4rem;
+}
+
+.banner .product img {
+    width: 120%;
+
+    position: absolute;
+    left: -130px;
+    top: 190px;
+
+    transform: rotate(-24deg);
+}
+
+.description {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.description h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.description h3 {
+    margin-bottom: 1rem;
+}
+
+.description p {
+    width: 300px;
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+
+.description .container-price {
+    width: 450px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-price .price {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.container-price button {
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    transition:  all .3s;
+}
+
+.container-price button:hover {
+    opacity: 0.5;
+}
+
+
+
+/* Dark Theme */
+.dark {
+    background-color: #222f3e;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+.dark .bi-moon {
+    display: block;
+}
+
+.dark header {
+    background-color: #222f3e;
+    box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.5);
+}
+
+.dark header h1 {
+    color: #fff;
+}
+
+.dark .product {
+    background-color: #222;
+}
+
+.dark .product h1 {
+    color: #9AECDB;
+}
+
+.dark .description {
+    background-color: #555;
+}
+
+.dark .description h2,
+.dark .container-price .price {
+    color: #efefef;
+}
+
+.dark .description h3 {
+    color: #2e86de;
+}
+
+.dark .description p {
+    color: #9AECDB;
+}
+
+.dark .container-price button {
+    background-color: #2e86de;
+}
+.dark .container-price button:hover {
+    background-color: #1B9CFC;
+    opacity: 1;
+}
